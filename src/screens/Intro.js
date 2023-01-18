@@ -9,7 +9,7 @@ export default function Intro({ navigation }) {
         <View style={styles.container}>
             <Image source={logoImage} style={styles.logoImage} />
             <View style={styles.space} />
-            <Text style={styles.appName}>Sawyer Application</Text>
+            <Text style={styles.appName}>Scout Application</Text>
             <View style={styles.space} />
             <CustomButton title="Enter Fallen Tree" onPress={() => navigation.replace("dashboard")} />
         </View>
