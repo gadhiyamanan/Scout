@@ -165,7 +165,7 @@ export default function Dashboard({ navigation }) {
                             </TouchableOpacity>
                         ) : (
                             <CustomButton
-                                title="Click select or take picture"
+                                title="Click to select or take picture"
                                 titleStyle={{ fontSize: 13, fontWeight: 'normal' }}
                                 onPress={() => setIsActionVisible(true)}
                             />
